@@ -15,7 +15,7 @@ const addTodoHandler=(e:React.FormEvent<HTMLFormElement>)=>{
 
   return (
      <>
-     <h1>leran React redux toolkit</h1>
+     <h1  className="text-center">leran React redux toolkit</h1>
 
      <div className="flex justify-center">
      <form onSubmit={addTodoHandler}

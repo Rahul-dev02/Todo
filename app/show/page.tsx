@@ -3,7 +3,7 @@ import React from "react";
 import { useSelector,useDispatch } from "react-redux";
 import {removetodo } from "@/lib/feature/todo/todoslice";
 import { RootState } from "@/lib/store";
-const showTodo=()=>{
+const ShowTodo=()=>{
     const todos=useSelector((state:RootState)=>state.todos)
     const dispatch=useDispatch()
     return(
@@ -37,4 +37,4 @@ const showTodo=()=>{
         </>
     )
 }
-export default showTodo;
+export default ShowTodo;
