@@ -9,6 +9,7 @@ const MenuBar=()=>{
     return(<>
         <Link href="/" className={pathName==="/"?"active":""}>Home</Link>
         <Link href="/show" className={pathName==="/show"?"active":""}>Show</Link>      
+        <Link href="/update" className={pathName==="/update"?"active":""}>update</Link>      
            
     </>)
 }
